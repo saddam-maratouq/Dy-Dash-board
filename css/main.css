@@ -2,9 +2,20 @@
 
 :root {
 
+  /* color */
+
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
    
 
-    --bg-hover : #F6F6F6;
+   --input-border : #ccc;
+   --bg-hover : #F6F6F6;
+  /*  */
+
     --fav-shadow : 0 0 10px #DDD
     --fav-transition : 1s 0.3s ease-in-out;
   }
@@ -43,13 +54,6 @@
 
 
   /* Components */
-
-  .page {
-    background-color: #f1f5f9;
-    min-height: 100dvh;
-
-  }
-  
 
   
   
@@ -95,9 +99,21 @@
   /* Start Sidebar  */
 
 
+
+  .page {
+    background-color: #f1f5f9;
+    min-height: 100dvh;
+
+  }
+  
+
+
+
+
   .sidebar {
     width: 250px;
     box-shadow: var(--fav-shadow);
+    /* box-shadow: 0 0 5px; */
   }
 
 
