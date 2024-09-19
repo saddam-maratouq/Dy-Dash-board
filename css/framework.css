@@ -26,6 +26,19 @@
 }
 
 
+.space-between {
+    justify-content: space-between;
+}
+
+
+.d-grid {
+    display: grid;
+}
+
+.gab-20 {
+    gap: 20px;
+}
+
 
 /* end box  */
 
@@ -65,8 +78,25 @@
     background-color:white ;
 }
 
+.p-grey {
+    color: #888;
+}
+
+
 .c-black {
     color: black;
+}
+
+.c-orange {
+    color: #f59e0b;
+}
+
+.c-green {
+    color: #22c55e;
+}
+
+.c-blue {
+    color :  blue;
 }
 
 /* End Color  */
@@ -86,7 +116,6 @@
 /* Start txt  */
 
 
-
 .txt-c {
     text-align: center;
 }
@@ -94,6 +123,25 @@
 .fs-14 {
     font-size: 14px;
 }
+
+
+.fw-600 {
+    font-weight: 600;
+}
+
+@media (max-width : 768px) {
+    .text-c-mobile {
+        text-align: center;
+    }  
+    .d-block-mobile {
+        display: block;
+    }
+
+    .d-none-mobile {
+        display: none;
+    }
+}
+
 
 
 /* End txt  */
@@ -104,6 +152,9 @@
     border-radius: 6px;
 }
 
+.rad-10 {
+    border-radius: 10px;
+}
 
 /* End Radius  */
 
