@@ -99,6 +99,11 @@
     color :  blue;
 }
 
+
+.c-red {
+    color: var(--red-color);
+}
+
 /* End Color  */
 
 

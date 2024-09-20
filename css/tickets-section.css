@@ -1,0 +1,211 @@
+
+
+/* Start tickets box  */
+
+.tickets-box {
+    padding: 20px 15px ;
+
+}
+
+
+@media (max-width: 768px) {
+   
+   .tickets-box  {
+        text-align: center;
+   } 
+
+}
+
+
+
+.tickets-box span {
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+.tickets-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.ticket-info {
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+    width: calc(50% - 10px);
+    text-align: center;
+   
+}
+
+
+@media (max-width: 768px) {
+    .tickets-info {
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+
+    .ticket-info {
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+
+.ticket-info i {
+    margin-top: 20px;
+}
+
+
+.ticket-info p {
+    margin: 10px 0 ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ticket-info span {
+    display: block;
+    font-size: 13px;
+}
+
+
+
+/* End Tickets */
+
+
+
+/*  news box     */
+
+.news-boxes h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.news-box {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 8px  15px ; */
+}
+
+
+
+
+.news-boxes .news-box:not(:last-child) {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+
+
+.news-box img {
+   
+    width: 100px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+ 
+.news-box  .days  {
+    font-size: 10px;
+    margin-left: auto;
+    background: #EEE;
+    /* padding: 5px; */
+    border-radius: 3px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+ .news-box .news-info p {
+    margin-bottom: 5px;
+}
+
+.news-info span {
+    display: block;
+    font-size: 13px;
+}
+
+
+
+
+
+
+/* Query  */
+
+
+@media (max-width: 768px) {
+    .news-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .news-boxes  {
+        text-align: center;
+    }
+
+
+    .news-box  .days  {
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    
+    
+}
+
+
+/*  */
+
+
+
+/*  End news box    */
+
+
+
+
+
+/* Start Latest Tasks  */
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+.trash-icon  {
+    margin-left: auto;
+    transition: var(--fav-transition);
+}
+
+
+.trash-icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+/* End Latest Tasks  */
