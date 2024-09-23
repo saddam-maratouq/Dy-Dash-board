@@ -65,10 +65,19 @@
 }
 
 
+
 .mt-0 {
     margin-top: 0;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+.mb-30 {
+    margin-bottom: 30px;
+}
 
 
 .mx-auto {
@@ -88,6 +97,10 @@
 
 .p-grey {
     color: #888;
+}
+
+.bg-eee {
+    background-color: #EEEEEE;
 }
 
 
@@ -133,9 +146,20 @@
     text-align: center;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
+
 .fs-14 {
     font-size: 14px;
 }
+
+.fs-15 {
+    font-size: 15px;
+}
+
+
 
 
 .fw-600 {
@@ -188,6 +212,17 @@
     }
 }
 
+
+/* Custome class  */
+
+
+.widdget-prop {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+/*  */
 
 /*  */
 

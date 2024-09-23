@@ -1,0 +1,151 @@
+
+
+.Search-widdget {
+    /* height: fit-content; */
+}
+
+
+.Search-widdget h2  {
+    margin-bottom: 20px;
+}
+
+
+
+
+.search-descrption p.bg-eee {
+    padding: 5px 10px ;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+
+
+
+/* Latest Updtae  */
+
+.update-box  {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.update-widdget .update-box:not(:last-child) {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom:  1px solid #eee;
+}
+
+.update-box img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.update-info {
+    flex: 1;
+}
+
+.update-info p {
+    font-size: 16px;
+}
+
+.bites {
+    padding: 5px 10px;
+}
+
+
+@media (max-width : 576px) {
+    .update-info p {
+        font-size: 15px;    
+    }
+}
+
+
+/* End Latest update  */
+
+
+
+
+/* Last projects   */
+
+
+
+.project-progress {
+    margin-bottom: 20px;
+}
+
+
+.project-progress p {
+    
+    font-size: 16px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.last-projects .project-progress:not(:last-child) p::before {
+    content: "";
+    min-height: 31px;
+    width: 2px;
+    background-color: var(--blue-color);
+    position: absolute;
+    left: -33px;
+    top: 14px;
+}
+
+
+.last-projects .project-progress p::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--blue-color);
+    left: -44px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    outline:  2px solid var(--blue-color) ;
+}
+
+
+.last-projects .project-progress .current-project::after {
+
+    animation: change-color 0.8s infinite alternate ;
+
+}
+
+
+.last-projects .project-progress:last-child  p::after 
+{
+    background-color: transparent;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 767px ) {
+    .last-projects h2 {
+        margin-bottom: 35px;
+    }
+}
+
+/* Start Animation  */
+
+@keyframes  change-color {
+    
+    from {
+        background-color: var(--blue-color);
+    }
+
+    to {
+        background-color: white;
+    } 
+
+}
+
+/*  */
+
+
+/* End  */
