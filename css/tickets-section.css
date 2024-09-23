@@ -131,6 +131,8 @@
 
  .news-box .news-info p {
     margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .news-info span {
@@ -166,7 +168,6 @@
     
 }
 
-
 /*  */
 
 
@@ -180,18 +181,24 @@
 /* Start Latest Tasks  */
 
 
+ .tasks-box .tasks-info p {
+    font-size: 15px;
+    font-weight: 600;
+}
 
 
 
+.special-box  {
+    opacity: 0.3;
+}
+
+.special-box .hidden-box p  ,
+.special-box .hidden-box span 
+ {
+ text-decoration: line-through;
 
 
-
-
- 
-    
-
-
-
+}
 
 
 .trash-icon  {
@@ -206,6 +213,13 @@
 }
 
 
+@media (max-width:768px) {
+    .trash-icon {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 /* End Latest Tasks  */
