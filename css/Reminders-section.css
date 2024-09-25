@@ -1,0 +1,199 @@
+
+
+/* Start Reminder widgeet */
+
+.reminder-info {
+    margin-left: 53px;
+  margin-bottom: 20px;
+  border-left: 3px solid var(--blue-color);
+  padding: 5px 15px ;
+  position: relative;
+}
+
+
+
+.reminder-info.r-green {
+    border-left:  3px solid var(--green-color); 
+}
+
+
+
+.reminder-info.r-orange {
+    border-left:  3px solid var(--orange-color); 
+}
+
+
+.reminder-info.r-red {
+    border-left:  3px solid var(--red-color); 
+}
+
+
+.reminder-info::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.reminder-info.r-green::before {
+    background-color: var(--green-color); 
+}
+
+.reminder-info.r-orange::before {
+    background-color: var(--orange-color); 
+}
+
+
+.reminder-info.r-red::before {
+    background-color: var(--red-color); 
+}
+
+
+/* End  Reminder widgeet */
+
+
+
+
+
+/* Start Last post  */
+
+.post-img-desc {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+.post-img-desc img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-img-desc .post-title p {
+ font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 5px;
+}
+
+.post-desc {
+    line-height: 1.6;
+    font-size: 18px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.post-reactions {
+    margin-top: 40px;
+}
+
+/* End  */
+
+
+
+
+/* Start Social  */
+
+
+.social-info {
+    display: flex;
+    align-items: center;
+   background-color: #D2ECFC;
+    margin-bottom: 10px;
+
+}
+
+.social-info.social-youtube {
+    background-color:  #FFCCCC;
+}
+
+
+.social-info .icon {
+    background-color: #036CDB;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--fav-transition);
+}
+
+
+
+
+.social-info .icon.icon-youtube {
+    background-color: #FF0000;
+}
+
+
+
+.social-info .icon i {
+  color: white;
+  
+}
+
+.social-info p {
+    flex: 1;
+    color: var(--blue-color);
+}
+
+.social-info.social-youtube  p {
+    color: #FF0000;
+}
+
+
+.social-info button {
+    margin-right: 20px;
+    background-color: #036CDB;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.social-info.social-youtube  button {
+    background-color: #FF0000;
+}
+
+
+
+/* Hover effect  */
+
+.social-info .icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+@media (max-width : 567px) {
+    .social-info p {
+        font-size: 13px;
+    }
+    
+    .social-info button {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    }
+    
+}
+
+
+/*  */
+
+
+
+
+/* End  */
