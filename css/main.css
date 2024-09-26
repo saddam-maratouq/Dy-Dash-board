@@ -28,7 +28,6 @@
   
   * {
     box-sizing: border-box;
-   
     margin: 0;
   }
 
@@ -73,8 +72,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--blue-alt-color);
 }
-
-
 
 /*  */
 
@@ -134,9 +131,6 @@
 
   }
   
-
-
-
 
   .sidebar {
     width: 250px;

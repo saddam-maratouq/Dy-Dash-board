@@ -186,14 +186,78 @@
         margin-right: 5px;
         font-size: 12px;
     }
-    }
+
+}
     
+/*  */
+
+/* End  */
+
+
+
+/* Project table */
+
+
+.wrapper-projects  .responsive-table {
+    overflow-x: auto;
+}
+
+.wrapper-projects table {
+    min-width: 1000px;
+    border-spacing: 0;
 }
 
 
-/*  */
+.wrapper-projects  thead  tr  {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+
+  table   td  {
+    padding: 25px;
+}
+
+
+table tbody td {
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+
+}
+
+table tbody tr {
+    transition: var(--fav-transition);
+}
+
+table tbody tr:hover td {
+    background-color: #faf7f7; 
+}
+
+table tbody tr td:last-child {
+    border-right: 1px solid #EEE;
+}
+
+table tbody td img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    /* border: 1px solid white; */
+    background-color: white;
+}
+
+
+table tbody td img:not(:first-child) {
+     margin-left: -20px;
+}
+
+
+table tbody tr td:last-child span  {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 10px;
+}
 
 
 
-
-/* End  */
+/* End Project tabel  */

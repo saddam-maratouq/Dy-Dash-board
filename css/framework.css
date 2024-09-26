@@ -109,6 +109,29 @@
 }
 
 
+.bg-red {
+    background-color: var(--red-color);
+}
+
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+
+.c-white {
+    color: white;
+}
+
 .c-black {
     color: black;
 }
