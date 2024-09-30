@@ -18,6 +18,7 @@
     display: block;
     font-size: 14px;
     transition: var(--fav-transition);
+    
 }
 
 .head .search::before {
@@ -44,7 +45,14 @@
         opacity: 0;
 }
 
+.head .search input::-webkit-search-cancel-button {
+    color: red;
+    border-radius: 50%; /* Makes the background round */
+    height: 12px;
+    width: 12px;
+}
 
+  
 
 
 .notifcation {

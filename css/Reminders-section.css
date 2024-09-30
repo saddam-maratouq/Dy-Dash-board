@@ -199,9 +199,10 @@
 
 
 .wrapper-projects  .responsive-table {
+    /* to make table scrool  on mobile */
     overflow-x: auto;
 }
-
+    
 .wrapper-projects table {
     min-width: 1000px;
     border-spacing: 0;
