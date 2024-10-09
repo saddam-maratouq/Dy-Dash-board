@@ -27,6 +27,10 @@
    <link rel="stylesheet" href="./css/settings/settings-section-one.css">
 
 
+   <link rel="stylesheet" href="./css/settings/settings-section-two.css">
+
+
+
    <!-- <link rel="stylesheet" href="./css/tickets-section.css"> -->
 
 
@@ -66,7 +70,7 @@
            </a>
       </li> 
 
-      <li>
+      <li>  
            <a href="index.html"  class="  active  d-flex align-center fs-14 c-black rad-6 p-10 " > 
             <i class="fa-solid fa-gear fa-fw"></i>
             <span>Settings</span>
@@ -149,7 +153,7 @@
     <div class="wrapper  d-grid gab-20 ">
 
         <!-- site control box  -->
-        <div class="site-control   widdget-prop  ">
+        <div class="site-control   widdget-prop ">
 
             <h2>  Site control  </h2>
 
@@ -159,7 +163,7 @@
             
                 <div>
                     <h3 class="mb-15" > Website  Control  </h3>
-                    <p  class="p-grey" > open/Close Website And Type The reason  </p>
+                    <p  class="p-grey  fs-13 " > open/Close Website And Type The reason  </p>
                 </div> 
 
                 <!-- toggle btn  -->
@@ -170,12 +174,14 @@
 
             </div>   
 
-            <textarea class="w-100  site-textarea "  name="" id="" cols="30" rows="10"  placeholder="Message Content"></textarea>
-
-
+            <textarea 
+            class="w-100  site-textarea "  name="" id="" cols="30" rows="10"  
+            placeholder="Message Content">
+           </textarea>
 
         </div>
         <!-- End  -->
+
 
         <!-- general Info box  -->
         <div class="genral-info-box  widdget-prop  ">
@@ -183,7 +189,7 @@
             <p class="p-grey"    > 
                 General Information About Your Account
             </p> 
-            <form  >
+               <form>
 
                 <label for="f-name">First name</label>
                 <input class="w-100"  type="text" id="f-name" value="Mike">
@@ -191,13 +197,13 @@
                 <label for="lname">Last name</label>
                 <input class="w-100" type="text" id="lname" value="Walker">
 
-                        <label for="lname">Email </label>
-                        <input  disabled   type="email" id="lname" placeholder="s@gmail.com">
-                    <a  class="change-link"  href="">  Change  </a>
-                </form> 
-        </div>
-        <!-- End  --> 
+                <label for="lname">Email </label>
+                <input  disabled   type="email" id="lname" placeholder="s@gmail.com">
 
+                <a  class="change-link"  href="">  Change  </a>
+                </form> 
+          </div>
+        <!-- End  --> 
 
         <!-- Security Info  --> 
         <div class="security-info    widdget-prop  ">
@@ -236,7 +242,7 @@
 
 
              <!-- box 3  -->
-            <div class="s-info-box  between-flex  mb-40  ">
+            <div class="s-info-box  between-flex   ">
 
                 <div>
                     <p class="mb-5" > Devices   </p>
@@ -254,8 +260,174 @@
         <!-- End  -->
 
 
-        </div>
+        <!-- Section 2  -->
 
+        <!-- Socila info  -->
+
+        <div class="social-info    widdget-prop  ">
+
+            <h2>  Social  Info  </h2>
+
+            <p    class="p-grey  mt-5 mb-20 "  > Social Media Information </p> 
+             
+
+            <!-- Twitter -->
+            <label class="social-Inputs d-flex align-center mb-20">
+                <i class="fa-brands fa-twitter t-icon"></i>
+                <input type="text" placeholder="Twitter Username">
+            </label>
+
+            <!-- Facebook -->
+            <label class="social-Inputs d-flex align-center mb-20">
+                <i class="fa-brands fa-facebook-f  t-icon"></i>
+                <input type="text" placeholder="Facebook Username">
+            </label>
+
+            <!-- LinkedIn -->
+            <label class="social-Inputs d-flex align-center mb-20">
+                <i class="fa-brands fa-linkedin t-icon"></i>
+                <input type="text" placeholder="LinkedIn Username">
+            </label>
+
+            <!-- YouTube -->
+            <label class="social-Inputs d-flex align-center ">
+                <i class="fa-brands fa-youtube t-icon"></i>
+                <input type="text" placeholder="YouTube Username">
+            </label>
+
+          
+        </div>
+        <!-- End  -->
+
+
+        <!-- Widget toggle  -->
+        <div class="widget-control   widdget-prop  ">
+
+          <h2>  Widgets Control </h2>
+
+          <p    class="p-grey  mt-5 mb-20 "> Show/Hide Widgets </p> 
+           
+          <!-- check 1  -->
+          <div class="check-widget    ">
+            <div  class="checker" >
+              <input  type="checkbox" name="" id="quick">
+            </div>
+            <!-- <p> Quick Draft  </p> -->
+            <label for="quick">Quick Draft </label>
+          </div> 
+
+                  <!-- check 2 -->
+          <div class="check-widget">
+            <div class="checker">
+              <input type="checkbox" name="yearly-targets" id="yearly-targets" checked>
+            </div>
+            <label for="yearly-targets">Yearly Targets</label>
+          </div>
+
+          <!-- check 3 -->
+          <div class="check-widget">
+            <div class="checker">
+              <input type="checkbox" name="tickets-statistics" id="tickets-statistics" checked>
+            </div>
+            <label for="tickets-statistics">Tickets Statistics</label>
+          </div>
+
+          <!-- check 4 -->
+          <div class="check-widget">
+            <div class="checker">
+              <input type="checkbox" name="latest-news" id="latest-news" checked>
+            </div>
+            <label for="latest-news">Latest News</label>
+          </div>
+
+          <!-- check 5 -->
+          <div class="check-widget">
+            <div class="checker">
+              <input type="checkbox" name="latest-tasks" id="latest-tasks">
+            </div>
+            <label for="latest-tasks">Latest Tasks</label>
+          </div>
+
+          <!-- check 6 -->
+          <div class="check-widget">
+            <div class="checker">
+              <input type="checkbox" name="top-search-items" id="top-search-items" checked>
+            </div>
+            <label for="top-search-items">Top Search Items</label>
+          </div>
+          
+          
+
+
+        
+         </div> 
+
+         <!-- End  Widget toggle   -->
+
+
+
+           <!-- Widget toggle  -->
+        <div class="backup-manger  widdget-prop  ">
+
+          <h2>  Backup Manager </h2>
+
+          <p    class="p-grey  mt-5 mb-20 ">
+            Control Backup Time And Location
+          </p> 
+           
+          <div class="backup-radio-group">
+
+
+            <div class="radio-box   d-flex align-center mb-20 "> 
+              <input type="radio" name="frequency" > 
+              <label for=""> Daily  </label>
+            </div>
+
+
+            <div class="radio-box  d-flex align-center mb-20 ">
+              <input type="radio" name="frequency" > 
+              <label for=""> Weekly   </label>
+            </div>
+
+
+            <div class="radio-box  d-flex align-center mb-20  ">
+              <input type="radio" name="frequency" checked > 
+              <label for=""> Monthly   </label>
+            </div>
+
+          </div>
+          
+          
+            <div class="backup-boxes  d-flex between-flex ">
+  
+            <div class="back-box  ">
+              <i   class="fa-solid fa-server d-block mb-10"   ></i> 
+              <p> Megman </p>
+            </div>
+  
+  
+            <div class="back-box2 back-box ">
+              <i  class="fa-solid fa-server d-block mb-10"  ></i> 
+              <p  > zero </p>
+            </div>
+  
+  
+            <div class="back-box">
+              <i class="fa-solid fa-server d-block mb-10"  ></i> 
+              <p> sigma  </p>
+            </div>
+  
+            </div>
+
+         </div> 
+
+
+         <!-- End  Widget toggle   -->
+
+
+
+        </div>
+        <!-- End setting wrapper ... -->
 
 
     </div>

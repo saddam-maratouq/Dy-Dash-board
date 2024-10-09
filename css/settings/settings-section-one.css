@@ -54,7 +54,7 @@
     content: "\58";
     color: #CCCCCC;
     position: absolute;
-    left: 5px;
+    left: 4px;
     background-color: white;
     width: 25px;
     height: 25px;
@@ -77,7 +77,7 @@
 .check-box:checked + .toggle-switch::before {
     content: "\f00c";
     color: var(--blue-color);
-    left: 55px;
+    left: 54px;
 }
 
 
@@ -95,7 +95,6 @@
 
 
 /* General Info  */
-
 
 
 .genral-info-box p  {
@@ -144,16 +143,23 @@
 
 
 
+
 /* Security Info  */
 .security-info >   p {
     margin: 10px 0 30px;
 }
 
 
-.s-info-box {
+.security-info  .s-info-box {
     border-bottom:  1px solid #ccc;
     padding-bottom: 25px;
 }
+
+
+.security-info .s-info-box:last-child {
+  border-bottom: none;
+}
+
 
 
 .btn-seurity {

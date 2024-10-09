@@ -1,0 +1,211 @@
+
+
+
+/* Social info   */
+
+
+
+.social-Inputs {
+    height: 40px;
+}
+
+
+.social-Inputs i {
+    width: 50px;
+    height: 100%;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -27px;
+    border-radius: 2px;
+    z-index: 1;
+    font-size: 15px;
+    color: #ccc;
+}
+
+
+.social-Inputs:focus-within i {
+    color: black;
+}
+
+
+
+.social-Inputs input[type="text"] {
+    height: 40px;
+    width: calc(100% - 10px) ;
+    border-radius: 2px;
+    /* border: none; */
+    border: 1px solid #ccc;
+    padding: 0 40px;
+    background-color: #F6F6F6;
+}
+
+
+
+/* Check box state  state  */
+
+.social-checkbox {
+    display: none;
+   
+}
+
+
+
+
+
+/*  */
+
+/* End  */
+
+
+
+/*   Widget Control   */
+
+
+.check-widget {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.check-widget:last-child {
+    margin-bottom: 0;
+}
+
+.checker input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+ 
+  margin-top: 3px;
+}
+ 
+
+.checker input[type="checkbox"]:checked {
+    background-color: #007bff;
+   border: none; 
+   transform: scale(1);
+}
+
+
+
+.checker input[type="checkbox"]:checked::before {
+    content: '✔';
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+   
+} 
+
+
+
+.widget-control .check-widget label  {
+    height: 30px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+
+
+
+/* End  */
+
+
+/* backup */
+
+
+.backup-radio-group {
+    /* background-color: red; */
+    padding-bottom: 10px;
+    border-bottom:  1px solid #DDD;
+}
+
+
+/* delete defult radio prop  */
+
+ .radio-box input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    /* display: none; */
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50% ;
+    border: 2px solid #DDD ;  
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Pointer cursor for better UX */
+    position: relative;
+ }
+
+ /* no need f for before ....  */
+
+ /* create new one  */
+ /* .radio-box input::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50% ;
+    background-color:white;
+    border: 1px solid #DDD;
+ } */
+
+ 
+
+ .radio-box input:checked {
+    background-color: #007bff ;
+    border: none; 
+    /* width: 100%;
+    height: 100%; */
+    /* box-shadow: inset 0 0 0 3px white;  */
+    /* Inner white circle */
+ }
+
+
+
+
+ .radio-box label {
+    font-size: 15px;
+ }
+
+
+.back-box {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #DDD;
+    width: 150px ;
+    border-radius: 6px;
+}
+
+.back-box.back-box2 {
+    border:  1px solid var(--blue-alt-color);
+}
+.back-box2 i {
+ color: var(--blue-alt-color);;
+}
+
+.back-box2 p {
+    color: var(--blue-alt-color);
+}
+
+
+/*  */
