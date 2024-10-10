@@ -1,0 +1,221 @@
+
+
+/* Status overview  */
+
+
+.overview {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.status-view {
+    padding: 20px  40px ;
+    text-align: center;
+}
+
+
+
+@media (min-width : 768px) {
+  
+    .status-view {
+        border-right:  1px solid #DDD;;
+
+    }
+    
+}
+
+
+
+@media  (max-width: 768px) {
+    .overview { 
+       flex-direction: column; 
+    }
+    .status-view {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.status-view .ov-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.status-view h3 {
+    margin: 0;
+}
+
+.status-view p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.profile-per {
+    position: relative;
+    background-color: #DDD;
+    width: 150px;
+    height: 5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.profile-per span {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    background-color: var(--blue-color);
+    height: 100%;
+    border-radius: 6px;
+
+}
+
+.rating {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+/* End  */
+
+
+
+/* status-info  */
+
+.status-info {
+    width: 100%;
+   
+}
+
+
+.general-info  {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+    transition: var(--fav-transition);
+   
+}
+
+.general-info > p   {
+    font-size: 15px;
+}
+
+
+.general-info:last-child {
+    border-bottom: none;
+} 
+
+
+.general-info:hover {
+    background-color: #f1f1f1f1;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:1367px) {
+    .info-box {
+        gap: 20px;
+    }
+}
+
+
+
+@media (max-width:767px) {
+    .info-box {
+        flex-direction: column;
+    }
+}
+
+
+
+.info-box {
+    flex-wrap: wrap;
+}
+
+
+
+.info-box > div {
+    min-width: 250px;
+}
+
+
+
+@media   (max-width:375px) {
+    .info-box > div {
+        min-width: 200px;
+    }
+         
+}
+
+.info-box div:not(:last-child)  {
+    /* margin-right: 55px; */
+}
+
+
+
+/* toogle check box edited height  */
+
+.check-box {
+    appearance: none;
+    display: none;
+}
+
+
+.status-info .toogle-label .toggle-switch {
+   position: relative;
+   cursor: pointer;
+    background: #CCCCCC;
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    transition: var( --fav-transition);
+}
+
+/* circel inside before check  */
+.status-info .toogle-label .toggle-switch::before {
+    
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 11px;
+    content: "\58";
+    color: #CCCCCC;
+    position: absolute;
+    left: 4px;
+    background-color: white;
+    width: 10x;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.status-info .toogle-label .check-box:checked +  .toggle-switch {
+    background-color: var(--blue-color)
+}
+
+
+/* Circel inside after check  */
+.status-info .toogle-label .check-box:checked + .toggle-switch::before {
+    content: "\f00c";
+    color: var(--blue-color);
+    left: 85px;
+}
+
+
+/* End  */

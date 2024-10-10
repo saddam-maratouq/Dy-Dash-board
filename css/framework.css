@@ -74,6 +74,17 @@
     margin-top: 5px;
 }
 
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+
 .mb-5 {
     margin-bottom: 5px ;
 }
@@ -265,6 +276,12 @@
    border-radius: 10px;
 }
 
+
+.custom-widget-padding {
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+}
 /*  */
 
 /*  */
