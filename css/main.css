@@ -66,8 +66,9 @@
   border-radius: 8px;
   border: 3px solid transparent;
   background-clip: content-box;
-  height: 10px;
+  height: 6px;
 }
+
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--blue-alt-color);
@@ -133,7 +134,8 @@
 
   .page {
     background-color: #f1f5f9;
-    min-height: 200dvh;
+    /* min-height: 200dvh; */
+    min-height: 120dvh;
 
   }
   
