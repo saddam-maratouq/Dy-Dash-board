@@ -1,0 +1,86 @@
+
+
+
+.wrapper-plans {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    margin-right: 20px;
+    margin-left: 20px ;
+    /* align-items: start; */
+}
+
+/* mobile  */
+
+@media (max-width:768px) {
+.wrapper-plans {
+        grid-template-columns:  minmax(250px, 1fr) ;
+        margin-right: 10px;
+        margin-left: 10px ;
+        gap: 15px;
+    }
+    
+}
+
+
+.out-title {
+    border: 2px solid green;
+    padding: 3px;
+}
+
+
+.out-title.o-blue {
+    border: 2px solid  var(--blue-color);
+}
+
+
+.out-title.o-orange {
+    border: 2px solid  var( --orange-color);   
+}
+
+
+
+.plan-title h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.p-title {
+    font-size: 30px;
+    position: relative;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+}
+
+.p-title span {
+    position: relative;
+    top: -14px;
+    left: 2px;
+    font-size: 14px;
+}
+
+
+.help {
+    cursor: pointer;
+    color: grey;
+    font-size: 13px;
+}
+
+
+.wrapper-plans .plans-content {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DDD ;    
+}
+
+
+
+/* Card 2  */ 
+
+.bt-plan {
+    padding: 8px 10px;
+    color: white;
+    width: fit-content;
+    font-size: 13px;
+    border-radius: 6px;
+}
