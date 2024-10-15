@@ -1,0 +1,154 @@
+
+
+
+.wrapper-files{
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    margin-right: 20px;
+    margin-left: 20px ;
+    /* align-items: start; */
+    width: 80%;
+
+}
+
+/* mobile  */
+
+@media (max-width:768px) {
+.wrapper-files{
+        grid-template-columns:  minmax(150px, 1fr) ;
+        margin-right: 10px;
+        margin-left: 10px ;
+        gap: 15px;
+        min-width: 95%;
+        margin: 0 auto;
+    }
+    
+}
+
+.file-box {
+    height: 185px;
+    transition: 0.3s 0.5s ease-in-out ;
+}
+
+.file-box:hover .file-info img {
+    transform: scale(1.1);
+    transform: rotate(20deg)
+}
+
+.file-box i {
+    position: absolute;
+    color: grey;
+    font-size: 13px;
+    top: 15px;
+    left: 15px;
+    transition: 0.3s 0.5s ease-in-out ;
+}
+
+.file-box i:hover {
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.file-box > span {
+    font-size: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.file-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.file-info p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+.file-info img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+/*  */  
+
+
+
+.file-struct {
+    min-width: 20%;
+    height: fit-content;
+    margin-right: 10px;
+    
+}
+
+
+.file-struct h2   {
+    font-size: 18px;
+}
+
+.file-static {
+    border: 1px solid #DDD;
+    border-radius: 6px;
+}
+
+.file-static i {
+    background-color: #DDD;
+    display: block;
+    /* padding: 15px 10px ; */
+    height: 35px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+
+.file-static  .file-title {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+.file-size {
+    margin-left: auto;
+    font-size: 11px;
+}
+
+
+
+
+ 
+@media (max-width: 768px) {
+    .file-static > div  {
+        display: block;
+    }   
+
+    .file-static > div i {
+        margin-bottom: 10px;
+    }
+
+    .wole-files {
+        flex-direction: column-reverse;
+    }
+
+    .file-struct {
+        min-width: 20%;
+        height: fit-content;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    
+    
+}
